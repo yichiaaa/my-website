@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>台北必吃的五間餐廳!|YUM YUMZ</title>
+<style>
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #C0A89C;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 18px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #F3F1E5;
+      color: black;
+    }
+	.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap; <!--如果空間不足，元素將折行到新的行 -->
+    justify-content: center;
+    align-items: center;
+  }
+ .left1 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left2 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left3 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left4 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left5 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .right {
+    flex: 2;
+    padding: 10px 150px 20px 20px; <!--調整右邊打字區的間隔-->
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; <!--將圖片和文字排列在垂直方向-->
+    height: 90vh; <!--全部置中的地方-->
+    padding: 40px 20px 40px 20px;
+  }
+  .left1 img:hover {
+    content: url('thuhover.jpg');  <!--第一間滑鼠放上去-->
+  }
+  .left2 img:hover{
+    content: url('tmanhover.jpg'); <!--第二間滑鼠放上去-->
+  }
+  .left3 img:hover{
+    content: url('petfrhover.jpg'); <!--第三間滑鼠放上去-->
+  }
+   .left4 img:hover{
+    content: url('dwanhover.jpg'); <!--第四間滑鼠放上去-->
+  }
+   .left5 img:hover{
+    content: url('thaihover.jpg'); <!--第五間滑鼠放上去-->
+   }
+  .image-container {
+      position: relative;
+      text-align: center;
+    }
+  .myImage {
+      width: 100%; /* 让图片宽度填充容器 */
+      height: auto; /* 保持宽高比例 */
+    }
+  .image-text {
+      position: absolute;
+      top: 35%; 
+      left: 27%; 
+      transform: translate(-50%, -50%); /* 将文字居中 */
+      padding: 10px; /* 可选：添加内边距 */
+      color: #fff;
+    }
+    .image-text1 {
+      position: absolute;
+      top: 20%; 
+      left: 20%; 
+      transform: translate(-50%, -50%); /* 将文字居中 */
+      padding: 10px; /* 可选：添加内边距 */
+      color: #fff;
+    }
+    
+     .fancy-button {
+      position: absolute;
+      top: 50%;
+      left: 7%;
+      display: inline-block;
+      padding: 10px 27px;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+      background-color: #F3F1E5;
+      color: #613326;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .fancy-button:hover {
+      background-color: #C0A89C;
+      color: #613326;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    .fancy-button1 {
+      position: absolute;
+      top: 50%;
+      left: 17%;
+      display: inline-block;
+      padding: 10px 27px;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+      background-color: #F3F1E5;
+      color: #613326;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .fancy-button1:hover {
+      background-color: #C0A89C;
+      color: #613326;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    .bottom-right-text {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 10px; /* 可选：添加一些边距 */
+      color: #fff; /* 设置文字颜色为白色 */
+      padding: 10px; /* 可选：添加内边距 */
+      border-radius: 8px; /* 可选：添加圆角 */
+      font-size: 30px;
+    }
+
+</style>
+
+</style>
+</head>
+<body>
+ <nav>
+  <a href="https://chenys3414.s3.amazonaws.com/midterm/midterm./HOMEPAGE.html"><b>YUM YUMZ</b></a>
+  <a href="https://wendyhsu.s3.amazonaws.com/brunch.html">早午餐</a>
+  <a href="https://myawsbucket1215.s3.amazonaws.com/cafe/cafe.html">咖啡廳</a>
+  <a href="https://restau.s3.amazonaws.com/resta123.html">餐廳</a>
+  <a href="https://midtermproject.s3.amazonaws.com/bistro.html">餐酒館</a>
+  <a href="https://yichiaaaa.s3.amazonaws.com/nightmarket.html">夜市</a>
+</nav>
+
+ <div class="container">
+  <div class="image-container">
+  <!-- 图片 -->
+  <img src="food2.jpg" alt="yumyumz" class="myImage" id="top">
+  <!-- 文字 -->
+  <h1 class="image-text1">YUM YUMZ 餐廳篇</h1><br>
+
+  <p class="image-text" align="left">身為一個道地的台北人，平常在台北市區走跳，蒐集了許多寶藏餐廳<br>是時候向大家分享我的私藏名單了，保證無雷！<br>
+(滑鼠放在圖片上可以看到推薦指數喔~~) </p>
+ </p><br>
+   <a href="#left2" class="fancy-button" >YUM美味</a>
+   <a href="#left4" class="fancy-button1" >YUM實惠</a>
+  </div>
+  </div>
+
+</body>
+<!-- 第一間 -->
+<h3 align="center">第一間:赤虎燒肉</h3>
+<div class="container">
+  <div class="left1">
+<strong><img src="thu.jpg" width="400" height="400" alt="赤虎燒肉" class="thu.jpg"/></strong>
+  </div>
+  <div class="right">
+    <p>赤虎燒肉是在日本有40年歷史的「浪漫街道餐飲集團」 在海外的投資的首店 。<br>
+      現在是日籍老闆一家人長駐經營，目前台北市已有內湖本店和信義安和店兩家店。<br>
+      正宗的日本燒肉手法配上手切的堅持，保證每一位顧客都可以享用到最純正的日本燒肉！</p>
+    <p>營業時間: 11:30-14:30(六日至16:00)，17:30- 22:00<br>
+		地址: 114台北市內湖區舊宗路一段150巷25號(內湖店)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;106台北市大安區安和路一段145號(信義安和店)</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="thu1.jpg" width="1000" height="600" alt="赤虎燒肉"/>
+  <p align="center">我第一次到訪赤虎燒肉，是因為在香港讀書的老姊饞了燒肉好久，<br>
+但香港又沒有好吃的日本燒肉。於是我在網上一頓搜索，<br>
+發現往右對赤虎的評價很高，抱著半信半疑的心態帶老姊去了一次，<br>
+沒想到一試成主顧，現在每當我想吃日本燒肉，第一個想到的就是赤虎！</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!-- 第二間 -->
+<h3 align="center">第二間:赤門居酒屋</h3>
+<div class="container">
+  <div id="left2" class="left2">
+    <img src="tman.jpg" width="400" height="400" alt="赤門居酒屋"/>
+  </div>
+  <div class="right">
+    <p>赤門居酒屋位於松隆路上，距離市政府捷運站一號出口步行3-5分鐘，交通相當方便。<br>
+店內擺設走的是相當古式的日本風，配合傳統的日本歌舞伎音樂，一進店彷若自己身在日本～<br>
+赤門以串燒為主，使用的肉品質量都相當有水準，當然，價格也不低，吃之前荷包要做好準備(苦笑)。<br></p>
+<p>營業時間: 18:00-00:00<br>
+		地址: 110台北市信義區松隆路８號
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="tman1.jpg" width="1000" height="600" alt="赤門居酒屋"/>
+   <p align="center">赤門居酒屋是我回台北必到訪的串燒店，<br>
+撇除離家近，高品質的用餐體驗才是主因！<br>高品質的用料配上簡單的醬汁，每一口下去都是食物原味對味蕾的極致享受<br>
+這邊私心推薦雞皮跟糖揚雞，<br>
+	 特別是雞皮，頂爛，絕對是我吃過的所有雞皮當中的Top3。</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第三間-->
+<h3 align="center">第三間:Petit France小法國</h3>
+<div class="container">
+  <div class="left3">
+    <img src="petfr.jpg" width="400" height="400" alt="Petit France小法國"/>
+  </div>
+  <div class="right">
+    <p>小法國位於台北市的青島東路上，<br>距離善導寺捷運站三號出口 步行約3分鐘，交通相當方便。<br>
+小法國是無菜單料理，人/$800套餐，<br>是台北市少數千元不到的價格卻能享用高品質法式套餐的餐廳！<br>
+需注意的是，小法國平日只供應晚餐，假日才有午餐時段，<br>且為了控制人物與餐點品質，只收預約客人喔！</p>
+	<p>營業時間: 星期一、二休息；三~五18:00-21:00；六日11:00-14:00，18:00-21:00<br>
+	地址: 100台北市中正區青島東路21-4號1樓</p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="petfr1.jpg" width="1000" height="600" alt="Petit France小法國"/>
+  <p align="center">雖然小法國是無菜單料理，但在預約訂位時，服務員就會主動詢問是否有忌口，<br>
+	  跟我一樣挑食的人也不用擔心！(不吃海鮮和菇菇)<br>
+以人均800的消費即可享用到11道菜，飯後能享受茶點還不收服務費！絕對是CP值滿滿～</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第四間-->
+<h3 align="center">第四間:大灣碼頭</h3>
+<div class="container">
+  <div id="left4" class="left4">
+    <img src="dwan.jpg" width="400" height="400" alt="大灣碼頭"/>
+  </div>
+  <div class="right">
+    <p>前面介紹了日本料理與法式料理，怎麼能少了台灣菜呢？<br>
+大灣碼頭是開在路邊的熱炒店，每次路過總是高朋滿座，充斥著滿滿的煙火味，<br>
+目前有著松隆與市府兩間店，距離市政府捷運站一號出口步行約5分鐘，交通十分方便，<br>
+菜色從家常料理、台式快炒，到生撈海鮮，應有盡有，包山包海，包你滿意！</p>
+	  <p>營業時間: 11:00-14:00，17:00-00:00(五六至2:00) <br>
+		  地址: 110台北市信義區松隆路1號(松隆店)<br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;110台北市信義區基隆路一段149號(市府店)</p>        </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="dwan1.jpg" width="1000" height="600" alt="大灣碼頭"/>
+  <p align="center">熱炒店在高樓林立的台北市是另外一番風景，<br>
+而大灣碼頭熱鬧而不吵雜的氛圍、便宜而又美味的食物，<br>
+絕對是值得你一訪的台式熱炒店。</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第五間-->
+<h3 align="center">第五間:象廚</h3>
+<div class="container">
+  <div id="left5" class="left5">
+    <img src="thai.jpg" width="400" height="400" alt="象廚"/>
+  </div>
+  <div class="right">
+    <p>第五間要介紹的是位於市政府捷運站四號出口附近的泰式料理-<strong>象廚</strong>！<br>
+店內的裝潢不算豪華，但餐點卻很有泰式風味，<br>
+環境舒適且服務相當不錯，喜歡泰式料理的人不妨試試～。</p>
+	  <p>營業時間: 11:30-13:30，17:30-20:30<br>
+		  地址: 110台北市信義區基隆路一段147巷9號</p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="thai1.jpg" width="1000" height="600" alt="象廚"/>
+  <p align="center">泰式料理相信大家都吃過，但能兼顧價格與質量的餐廳卻在少數，<br>象廚就是這麼一間能兼顧兩者的寶藏餐廳！<br>高CP值再加上交通方便，到現場免不了排隊，<br>
+再加上象廚有著6人(含)以上才能訂位的限制，<br>
+若是6人以下，且擔心等候時間過久，可以盡量避免巔峰用餐時間到訪喔！</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<br>
+<div class="container">
+        <div class="left1">
+            <iframe name="everymap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0078695576976!2d121.5527774!3d25.033807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab72bf898f1d%3A0x96b0b951bb64db12!2z54S86IKJ44Gu5ZCN6ZaAIOi1pOiZji3kv6Hnvqnlronlkozlupc!5e0!3m2!1szh-TW!2stw!4v1699971747123!5m2!1szh-TW!2stw" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+      <ul>
+      <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0078695576976!2d121.5527774!3d25.033807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab72bf898f1d%3A0x96b0b951bb64db12!2z54S86IKJ44Gu5ZCN6ZaAIOi1pOiZji3kv6Hnvqnlronlkozlupc!5e0!3m2!1szh-TW!2stw!4v1699971747123!5m2!1szh-TW!2stw" target="everymap">赤虎燒肉-信義安和店</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7324593032654!2d121.56398327608566!3d25.04315193792167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbc166bfc39%3A0x1ef6d9102ce3f576!2z6LWk6ZaA5bGF6YWS5bGL!5e0!3m2!1szh-TW!2stw!4v1699971873435!5m2!1szh-TW!2stw" target="everymap">赤門居酒屋</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.711666135567!2d121.52158357608565!3d25.0438573378932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a970f5524f5f%3A0x2dee4ea469b1a83d!2zUGV0aXQgRnJhbmNlIOWwj-azleWci-mkkOmkqA!5e0!3m2!1szh-TW!2stw!4v1699971952522!5m2!1szh-TW!2stw" target="everymap">Petit France小法國</a></p>  </li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.720419648395!2d121.56151238685992!3d25.04356038070588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbc3b131055%3A0xc88a44cd0f4aa46b!2z5aSn54Gj56K86aCtLeadvumahuW6lw!5e0!3m2!1szh-TW!2stw!4v1699972047660!5m2!1szh-TW!2stw" target="everymap">大灣碼頭松隆店</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.751430306314!2d121.56367637608585!3d25.04250833794756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbc1aae8e3b%3A0x817f87a2ae0123df!2z6LGh5bua5rOw5byP5paZ55CG!5e0!3m2!1szh-TW!2stw!4v1699972101329!5m2!1szh-TW!2stw" target="everymap">象廚</a></p></li> 
+      </ul>
+        </div>
+</div>
+<br>
+<br>
+<p class="bottom-right-text">
+<a href="#top" align="right">⏫</a></p>
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>台北必去的五家咖啡廳!!|YUM YUMZ</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #C0A89C;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 18px 20px; /* 調整格子大小 */
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #F3F1E5;
+      color: black;
+    }
+  .container {
+    display: flex;
+    flex-wrap: wrap; <!--如果空間不足，元素將折行到新的行 -->
+    justify-content: center;
+    align-items: center;
+  }
+ .left1 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left2 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left3 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left4 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .left5 {
+    flex: 1;
+    padding: 0px 20px 0px 250px;
+  }
+  .right {
+    flex: 2;
+    padding: 10px 150px 20px 20px; <!--調整右邊打字區的間隔-->
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; <!--將圖片和文字排列在垂直方向-->
+    height: 90vh; <!--全部置中的地方-->
+    padding: 40px 20px 40px 20px;
+  }
+  .left1 img:hover {
+    content: url('https://myawsbucket1215.s3.amazonaws.com/cafe/ShawnHover.JPEG');  <!--第一間滑鼠放上去-->
+  }
+  .left2 img:hover{
+    content: url('https://myawsbucket1215.s3.amazonaws.com/cafe/TQLHover.JPEG'); <!--第二間滑鼠放上去-->
+  }
+  .left3 img:hover{
+    content: url('https://myawsbucket1215.s3.amazonaws.com/cafe/SunshineHover.JPEG'); <!--第三間滑鼠放上去-->
+  }
+   .left4 img:hover{
+    content: url('https://myawsbucket1215.s3.amazonaws.com/cafe/zhuoriHover.JPEG'); <!--第四間滑鼠放上去-->
+  }
+   .left5 img:hover{
+    content: url('https://myawsbucket1215.s3.amazonaws.com/cafe/RMHover.JPEG'); <!--第五間滑鼠放上去-->
+  }
+   }
+    .image-container {
+      position: relative;
+      text-align: center;
+    }
+    .myImage {
+      width: 100%; /* 讓圖片寬度填充容器 */
+      height: auto; /* 保持寬高比例 */
+    }
+    .image-text {
+      position: absolute;
+      top: 30%; /* 文字居中 */
+      left: 15%; /* 文字居中 */
+      transform: translate(-50%, -50%); /* 將文字居中 */
+      padding: 10px; /* 可選：添加内邊距 */
+      color: #fff;
+    }
+    .image-text1 {
+      position: absolute;
+      top: 20%; /* 文字居中 */
+      left: 15%; /* 文字居中 */
+      transform: translate(-50%, -50%); /* 將文字居中 */
+      padding: 10px; /* 可選：添加内邊距 */
+      color: #fff;
+    }
+     .fancy-button {
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      display: inline-block;
+      padding: 10px 27px;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+      background-color: #F3F1E5;
+      color: #613326;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .fancy-button:hover {
+      background-color: #C0A89C;
+      color: #613326;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    .fancy-button1 {
+      position: absolute;
+      top: 40%;
+      left: 15%;
+      display: inline-block;
+      padding: 10px 27px;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+      background-color: #F3F1E5;
+      color: #613326;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .fancy-button1:hover {
+      background-color: #C0A89C;
+      color: #613326;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    .bottom-right-text {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 10px; /* 可選：添加一些邊距 */
+      color: #fff; /* 設置文字顏色為白色 */
+      padding: 10px; /* 可選：添加内邊距 */
+      border-radius: 8px; /* 可選：添加圓角 */
+      font-size: 30px;
+    }
+    .special-paragraph a:link {
+     Color:#ffffff;
+    }
+    .special-paragraph a:visited {
+     Color:#ffffff;
+    }
+</style>
+</head>
+<body>
+
+ <nav>
+  <a href="https://chenys3414.s3.amazonaws.com/midterm/midterm./HOMEPAGE.html"><b>YUM YUMZ</b></a>
+  <a href="https://wendyhsu.s3.amazonaws.com/brunch.html">早午餐</a>
+  <a href="https://myawsbucket1215.s3.amazonaws.com/cafe/cafe.html">咖啡廳</a>
+  <a href="https://restau.s3.amazonaws.com/resta123.html">餐廳</a>
+  <a href="https://midtermproject.s3.amazonaws.com/bistro.html">餐酒館</a>
+  <a href="https://yichiaaaa.s3.amazonaws.com/nightmarket.html">夜市</a>
+</nav>
+
+ <div class="image-container">
+  <!-- 圖片 -->
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/cafe.jpg" alt="yumyumz" class="myImage" id="top">
+  <!-- 文字 -->
+  <h1 class="image-text1">YUM YUMZ 咖啡廳篇</h1><br>
+
+  <p class="image-text" align="left">咖啡廳不只是一個沈澱心情的地方，<br>更是讀書、聚會以及品味咖啡文化的空間。<br>能填飽肚子，更能為靈魂充電。<br>
+    (滑鼠放在圖片上可以看到推薦指數喔~~)
+ </p><br>
+   <a href="#left3" class="fancy-button" >YUM舒適</a>
+   <a href="#left4" class="fancy-button1" >YUM美味</a>
+  </div>
+<!-- 第一間 -->
+<h3 align="center" id="left1">第一間：Shawn Coffee & Latte Art</h3><br>
+<div class="container">
+  <div class="left1">
+    <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/Shawn01.jpeg" alt="Shawn Coffee & Latte Art" height="400">
+  </div>
+  <div class="right">
+    <p>Shawn Coffee & Latte Art 位於台北市松山區新中街8巷16號。整體店面風格呈現暗色系輕工業風，雖然餐點、飲品的單價偏高，但是不管是店內營造的氣氛，或是餐點的品質都非常有水準。糕點和咖啡的品項很多樣化，許多甜點是期間限定，不同期間的甜點都各有特色，甜而不膩、口味多樣；咖啡則是香氣和味道都很出色，即使最一般的美式咖啡也喝得出品質非常的講究。拉花是店面的招牌特色，除了有拉花教學課程之外，截至2022年已經舉辦過4年的拉花比賽，被譽為臺灣對流拉花最高殿堂。<br>
+      <ul>
+        <li>拿鐵(上左1)</li>
+        <li>黑糖燕麥伯爵奶茶(上左2)</li>
+        <li>千層酥(上右1)</li>
+        <li>大理石紋鐵觀音戚風(上右2)</li>
+        <li>卡士達草莓塔(下左1)</li>
+        <li>熱巧克力(下左2)</li>
+        <li>黑糖拿鐵(下右1)</li>
+        <li>抹茶蛋糕(下右2)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/Shawn02.jpg" align="middle" alt="Shawn Coffee & Latte Art" width="1000" height="562.5">
+  <p class="special-paragraph" align="center" style="background-color:#C0A89C; width:85%; color:#ffffff; line-height:1.5;">
+	<a target=new href="https://www.instagram.com/shawncoffeetw/">Instagram</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.facebook.com/p/Shawn-Coffee-100063901307754/">Facebook</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp電話：02-3762-1020<br>
+	Google 評分：4.6&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp營業時間：週一～週日10:00~18:00&nbsp;&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp地址：台北市松山區新中街8巷16號<br>
+	COPRYRIGHT&nbsp;&nbsp©&nbsp;&nbsp圖片皆有經過官方授權，圖片版權皆屬於官方網站以及其拍攝者
+</p>
+</ul>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!-- 第二間 -->
+<h3 align="center" id="left2">第二間：The Quiet Light 默光咖啡</h3>
+<div class="container">
+  <div class="left2">
+    <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/TQL01.jpg" alt="The Quiet Light 默光咖啡" height="400">
+  </div>
+  <div class="right">
+    <p>The Quiet Light 默光咖啡 位於台北市大安區瑞安街111號。雖然瑞安店的位子偏少，但餐點以及飲品的部分都非常多樣化，而且不定時店內會提供國外的咖啡豆製成的飲品，以手沖的方式提供給顧客。圖上的翡翠莊園Geisha手沖咖啡即是巴拿馬種植的特殊品種：Geisha藝伎。而餐點的部分，店內供應的甜點每天都不固定，每一樣都能讓人感覺到製作的用心和講究。<br>
+      <ul>
+        <li>卡布奇諾(上左1)</li>
+        <li>黑糖卡布奇諾(上左2)</li>
+        <li>巴斯克乳酪蛋糕(上右1)</li>
+        <li>帕尼尼＆油醋生菜沙拉＆水煮蛋(上右2)</li>
+        <li>國王香料奶茶(下左1)</li>
+        <li>翡翠莊園Geisha手沖咖啡(下左2)</li>
+        <li>酥頂蘋果蛋糕(下右1)</li>
+        <li>香料胡蘿蔔蛋糕(下右2)(瑞安店限定)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/TQL02.jpg" align="middle" alt="The Quiet Light 默光咖啡" width="1000" height="562.5">
+  <p class="special-paragraph" align="center" style="background-color:#C0A89C; width:85%; color:#ffffff; line-height:1.5;">
+	<a target=new href="https://www.instagram.com/thequietlight_cafe/">Instagram</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.facebook.com/TheQuietLight">Facebook</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.thequietlightcoffee.com/">官方網站</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp電話：02-2701-2091<br>
+	Google 評分：4.7&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp營業時間：平日：07:30~17:00 假日：09:00~17:00&nbsp;&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp地址：台北市大安區瑞安街111號<br>
+	COPRYRIGHT&nbsp;&nbsp©&nbsp;&nbsp圖片皆有經過官方授權，圖片版權皆屬於官方網站以及其拍攝者
+  </p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第三間-->
+<h3 align="center" id="left3">第三間：Sunshine Cafe 象山日光珈琲</h3>
+<div class="container">
+  <div class="left3">
+    <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/Sunshine01.jpg" alt="Sunshine Cafe 象山日光珈琲" height="400">
+  </div>
+  <div class="right">
+    <p>Sunshine Cafe 象山日光珈琲位於台北市信義區信義路五段150巷22弄55號，剛好位於象山的登山口，適合上山以及下山的旅客到店內休憩，即使一樓空間有點擁擠，但給人的感覺是溫馨且舒適的。店內的餐點和飲品都非常受顧客青睞，肉桂捲更是遠近馳名，甚至在2023年6月贏得台北人氣肉桂捲第一名。最特別的部分則是咖啡廳的電影日活動，電影在咖啡廳的地下室放映，可以在沙發區享用店家的精緻餐點，以及精心挑選的電影，可以事先在官方Facebook預約、查看相關活動資訊。
+      <ul>
+        <li>昭和巧克力布丁(上左1)</li>
+        <li>百香鳳梨氣泡水(上左2)</li>
+        <li>肉桂捲(上右1)</li>
+        <li>冰泰式奶茶(上右2)</li>
+        <li>草莓牛奶(下左1)</li>
+        <li>南洋香料咖哩(假日極限量供應)(下左2)</li>
+        <li>冰檸西西里咖啡(下右1)</li>
+        <li>紐約起司蛋糕(下右2)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/Sunshine02.jpg" align="middle" alt="Sunshine Cafe 象山日光珈琲" width="1000" height="562.5">
+    <p class="special-paragraph" align="center" style="background-color:#C0A89C; width:85%; color:#ffffff; line-height:1.5;">
+	<a target=new href="https://www.instagram.com/sunshinecafe_tw/">Instagram</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.facebook.com/sunshinecafeelephanthill/">Facebook</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp電話：02-2720-9742<br>
+	Google 評分：4.6&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp營業時間：週一＆週三＆週四：11:00~20:00 週二：00:30~20:00 週五公休 假日：10:00~20:00<br>
+	地址：台北市信義區信義路五段150巷22弄55號<br>
+	COPRYRIGHT&nbsp;&nbsp©&nbsp;&nbsp圖片皆有經過官方授權，圖片版權皆屬於官方網站以及其拍攝者</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第四間-->
+<h3 align="center" id="left4">第四間：zhuori 勺日咖啡</h3>
+<div class="container">
+  <div class="left4">
+    <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/zhuori01.jpg" alt="zhuori 勺日咖啡" height="400">
+  </div>
+  <div class="right">
+    <p>zhuori 勺日咖啡位於台北市大安區復興南路一段206號，店面從空間設計到餐點的呈現方式，都給人一種奢華、高檔的氛圍。餐點及飲品令人眼睛為之一亮，手沖咖啡、冰磚拿鐵、香草茶的上餐方式頗具創意，香草茶直接在客人餐桌旁從盆栽現摘、研磨、泡茶的過程，互動性、新鮮感十足。空間中各式物品、裝飾皆是大有來頭的時尚品牌，或是知名設計的作品，讓顧客用餐的同時，也能體驗不同的生活風格。勺日咖啡不僅僅是提供餐點的店家，更是將咖啡文化以及時尚、設計融合的生活藝術家。
+      <ul>
+        <li>焦糖爆米花咖啡千層(上左1)</li>
+        <li>荔枝拿鐵(上左2)</li>
+        <li> 無花果可頌鬆餅(秋季限定)(上右1)</li>
+        <li>蜂蜜橙酒拿鐵(上右2)</li>
+        <li>熱帶水果冰茶(下左1)</li>
+        <li>冰磚拿鐵(下左2)</li>
+        <li>紅豆拿鐵(下右1)</li>
+        <li>肉桂黑糖冰淇淋可頌鬆餅(下右2)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/zhuori02.jpg" align="middle" alt="zhuori 勺日咖啡" width="1000" height="562.5">
+    <p class="special-paragraph" align="center" style="background-color:#C0A89C; width:85%; color:#ffffff; line-height:1.5;">
+	<a target=new href="https://www.instagram.com/zhuori206/">Instagram</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.facebook.com/zhuo.ri.206/">Facebook</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.zhuori.com.tw">官方網站： https://www.zhuori.com.tw</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp電話：02-2711-0223<br>
+	Google 評分：4.3&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp營業時間：週一～週日：09:00~20:30&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp地址：台北市大安區復興南路一段206號<br>
+	COPRYRIGHT&nbsp;&nbsp©&nbsp;&nbsp圖片皆有經過官方授權，圖片版權皆屬於官方網站以及其拍攝者</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<!--第五間-->
+<h3 align="center" id="left5">第五間：Remember Me 記得我 Cafe</h3>
+<div class="container">
+  <div class="left5">
+    <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/RM01.jpg" alt="Remember Me 記得我 Cafe" height="400">
+  </div>
+  <div class="right">
+    <p>Remember Me 記得我 Cafe位於台北市松山區南京東路四段133巷4弄16號，營業時間到半夜兩點，為許多夜貓子晚上加班或唸書提供了舒適的環境。記得我Cafe除了是寵物友善餐廳之外，店家內外不時會有附近的流浪貓駐足，為咖啡廳增添了一些不一樣的元素。而每日19:00~21:00的駐唱表演更是吸引許多顧客一再造訪。整體營造的環境不管是午後的金光散漫還是深夜的幽靜，都能讓到來的顧客沈澱心情，為靈魂充電。
+      <ul>
+        <li>春暖花香(香瓜氣泡飲)(10月限定)(上左1)</li>
+        <li>記得我咖啡(上左2)</li>
+        <li>京都一保堂焙茶布丁(上右1)</li>
+        <li>親子丼(上右2)</li>
+        <li>記得我奶茶(下左1)</li>
+        <li>鵲牌焦糖奶油冰滴(下左2)</li>
+        <li>綻放(甘蔗)(下右1)</li>
+        <li>潘朵拉的果實(下右2)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<div class="centered">
+  <img src="https://myawsbucket1215.s3.amazonaws.com/cafe/RM02.jpg" align="middle" alt="Remember Me 記得我 Cafe" width="1000" height="562.5">
+    <p class="special-paragraph" align="center" style="background-color:#C0A89C; width:85%; color:#ffffff; line-height:1.5;">
+	<a target=new href="https://www.instagram.com/taiwan_rememberme_cafe/">Instagram</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp<a target=new href="https://www.facebook.com/remembermecafe/?locale=zh_TW">Facebook</a>&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp電話：02-2547-1517<br>
+	Google 評分：4.5&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp營業時間：週二～週日：12:00~02:00 週六＆週一：12:00~22:00&nbsp;&nbsp;&nbsp|
+	&nbsp;&nbsp;&nbsp地址：台北市松山區南京東路四段133巷4弄16號<br>
+	COPRYRIGHT&nbsp;&nbsp©&nbsp;&nbsp圖片皆有經過官方授權，圖片版權皆屬於官方網站以及其拍攝者</p>
+</div>
+<hr noshade align="center" width="1400px" size="1px">
+<br>
+<div class="container">
+        <div class="left1">
+            <iframe name="cafemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2638274950027!2d121.5587141753772!3d25.05904557780014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab0132d86389%3A0xa284ab649b4f4444!2sShawn!5e0!3m2!1szh-TW!2stw!4v1699983148311!5m2!1szh-TW!2stw" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+      <ul>
+      <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2638274950027!2d121.5587141753772!3d25.05904557780014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab0132d86389%3A0xa284ab649b4f4444!2sShawn!5e0!3m2!1szh-TW!2stw!4v1699983148311!5m2!1szh-TW!2stw" target="cafemap">Shawn Coffee & Latte Art 地圖</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1975111703205!2d121.53758507537628!3d25.02737037782065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab90171c730d%3A0x613bd33a32af6f6a!2zVGhlIFF1aWV0IExpZ2h0IOm7mOWFieWSluWVoe-8iOeRnuWuieW6l--8iQ!5e0!3m2!1szh-TW!2stw!4v1699983609713!5m2!1szh-TW!2stw" target="cafemap">The Quiet Light 默光咖啡 地圖</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1988957592457!2d121.56781127537626!3d25.02732337782069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab8327c725b5%3A0x45462db260803de6!2z6LGh5bGx5pel5YWJ54-I55CyIFN1bnNoaW5lIENhZmU!5e0!3m2!1szh-TW!2stw!4v1699983721857!5m2!1szh-TW!2stw" target="cafemap">Sunshine Cafe 象山日光珈琲 地圖</a></p>  </li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.84025900319!2d121.54092787537665!3d25.03949457781273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab860a2b0561%3A0x33c990e652e56836!2z5Yu65pel5ZKW5ZWh5buzIOaXpeWlveepuumWk-W6lw!5e0!3m2!1szh-TW!2stw!4v1699983820875!5m2!1szh-TW!2stw" target="cafemap">zhuori 勺日咖啡 地圖</a></p></li>
+            <li><p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4609719056853!2d121.55195537537709!3d25.05236057780445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abea2c8a3bf1%3A0x6abb2dee4dacb14a!2zUmVtZW1iZXIgTWVf6KiY5b6X5oiR77yOY2Fmw6nvvI3lj7DljJfmjqjolqblkpbllaHlu7Mg5rex5aSc5ZKW5ZWh5buzIOWwj-W3qOibiyDntrLnvo7lkpbllaHlu7Mg5p2-5bGx5Y2A5b-F5ZCDIOS4i-WNiOiMtummlumBuCDntrLntIXmi43nhafmiZPljaEg54m56Imy5ZKW5ZWh5buzIOeUn-aXpeaFtueUn-mkkOW7syDpq5hDUOWAvCDloLTlnLDljIXloLQg57SE5pyD6IGa6aSQ!5e0!3m2!1szh-TW!2stw!4v1699983882003!5m2!1szh-TW!2stw" target="cafemap">Remember Me 記得我 Cafe 地圖</a></p></li> 
+      </ul>
+        </div>
+</div>
+<br>
+<br>
+<p><a class="bottom-right-text" href="#top">⏫</a></p>
+</body>
+</html>
